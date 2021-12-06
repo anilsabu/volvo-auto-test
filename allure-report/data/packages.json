@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "Volvo testing",
+    "children" : [ {
+      "name" : "open url & asset title",
+      "uid" : "b7072ea8e3cf1a7b",
+      "parentUid" : "b8d93f3f8fd941aea895b17d7b045c91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638760027885,
+        "stop" : 1638760029021,
+        "duration" : 1136
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.55" ]
+    }, {
+      "name" : "header test",
+      "uid" : "a225d2cb7220a6c9",
+      "parentUid" : "b8d93f3f8fd941aea895b17d7b045c91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1638760029022,
+        "stop" : 1638760029306,
+        "duration" : 284
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-96.0.4664.55" ]
+    } ],
+    "uid" : "b8d93f3f8fd941aea895b17d7b045c91"
+  } ],
+  "name" : "packages"
+}

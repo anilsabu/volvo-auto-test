@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Dec 06 11:07:07 SGT 2021","Mon Dec 06 11:07:09 SGT 2021","1136","","Volvo testing","","Volvo testing","open url & asset title","open url & asset title",""
+"passed","Mon Dec 06 11:07:09 SGT 2021","Mon Dec 06 11:07:09 SGT 2021","284","","Volvo testing","","Volvo testing","header test","header test",""

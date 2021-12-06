@@ -1,0 +1,78 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1638760027885' stop='1638760029309'>
+    <name>Volvo testing</name>
+    <title>Volvo testing</title>
+    <test-cases>
+        <test-case start='1638760027885' status='passed' stop='1638760029021'>
+            <name>open url &amp; asset title</name>
+            <title>open url &amp; asset title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+            </parameters>
+            <steps>
+                <step start='1638760027886' status='passed' stop='1638760029012'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='6afec01b-35c8-40f7-b905-9d2c429ede45-attachment.json' type='application/json' size='73'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638760029013' status='passed' stop='1638760029020'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='beff9b5b-6dd5-4359-9303-9837171f8dfe-attachment.json' type='application/json' size='45'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1638760029022' status='passed' stop='1638760029306'>
+            <name>header test</name>
+            <title>header test</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.55'/>
+            </parameters>
+            <steps>
+                <step start='1638760029022' status='passed' stop='1638760029270'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='82e3d34d-5b20-430c-a8e1-9b2d196593a6-attachment.json' type='application/json' size='73'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638760029271' status='passed' stop='1638760029303'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='3f4c4b3d-cdb7-444a-bba8-bc945f8518e4-attachment.json' type='application/json' size='66'/>
+                        <attachment title='Response' source='675fabda-1731-4563-91b1-e7e2f91488b5-attachment.json' type='application/json' size='2017'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1638760029307' status='undefined'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='9f2324bd-9d46-4f10-b970-5da499ac7f03-attachment.json' type='application/json' size='66'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,137 @@
+{
+  "uid" : "a225d2cb7220a6c9",
+  "name" : "header test",
+  "fullName" : "Volvo testing.header test",
+  "historyId" : "931774a9dc28a42ae5f2ed900aa91ec3",
+  "time" : {
+    "start" : 1638760029022,
+    "stop" : 1638760029306,
+    "duration" : 284
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1638760029022,
+        "stop" : 1638760029270,
+        "duration" : 248
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8a9cdd6db5a385c7",
+        "name" : "Request",
+        "source" : "8a9cdd6db5a385c7.json",
+        "type" : "application/json",
+        "size" : 73
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1638760029271,
+        "stop" : 1638760029303,
+        "duration" : 32
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8157661ebda44f7f",
+        "name" : "Request",
+        "source" : "8157661ebda44f7f.json",
+        "type" : "application/json",
+        "size" : 66
+      }, {
+        "uid" : "b68bd878faeec491",
+        "name" : "Response",
+        "source" : "b68bd878faeec491.json",
+        "type" : "application/json",
+        "size" : 2017
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1638760029307,
+        "stop" : 0,
+        "duration" : -1638760029307
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6f9f5b7045167f3e",
+        "name" : "Request",
+        "source" : "6f9f5b7045167f3e.json",
+        "type" : "application/json",
+        "size" : 66
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Volvo testing"
+  }, {
+    "name" : "testClass",
+    "value" : "Volvo testing"
+  }, {
+    "name" : "testMethod",
+    "value" : "header test"
+  }, {
+    "name" : "package",
+    "value" : "Volvo testing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.55"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a225d2cb7220a6c9.json",
+  "parameterValues" : [ "chrome-96.0.4664.55" ]
+}

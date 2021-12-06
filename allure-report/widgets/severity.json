@@ -1,0 +1,21 @@
+[ {
+  "uid" : "b7072ea8e3cf1a7b",
+  "name" : "open url & asset title",
+  "time" : {
+    "start" : 1638760027885,
+    "stop" : 1638760029021,
+    "duration" : 1136
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a225d2cb7220a6c9",
+  "name" : "header test",
+  "time" : {
+    "start" : 1638760029022,
+    "stop" : 1638760029306,
+    "duration" : 284
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

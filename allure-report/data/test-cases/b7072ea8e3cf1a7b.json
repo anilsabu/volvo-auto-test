@@ -1,0 +1,110 @@
+{
+  "uid" : "b7072ea8e3cf1a7b",
+  "name" : "open url & asset title",
+  "fullName" : "Volvo testing.open url & asset title",
+  "historyId" : "b1be0ab4c3a224a01f170759a52e5e23",
+  "time" : {
+    "start" : 1638760027885,
+    "stop" : 1638760029021,
+    "duration" : 1136
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1638760027886,
+        "stop" : 1638760029012,
+        "duration" : 1126
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "34e1c8fa815ce215",
+        "name" : "Request",
+        "source" : "34e1c8fa815ce215.json",
+        "type" : "application/json",
+        "size" : 73
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1638760029013,
+        "stop" : 1638760029020,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2f4edf2e3ed1d0e2",
+        "name" : "Response",
+        "source" : "2f4edf2e3ed1d0e2.json",
+        "type" : "application/json",
+        "size" : 45
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Volvo testing"
+  }, {
+    "name" : "testClass",
+    "value" : "Volvo testing"
+  }, {
+    "name" : "testMethod",
+    "value" : "open url & asset title"
+  }, {
+    "name" : "package",
+    "value" : "Volvo testing"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.55"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b7072ea8e3cf1a7b.json",
+  "parameterValues" : [ "chrome-96.0.4664.55" ]
+}
